@@ -13,6 +13,8 @@
 		82410348290C51A0006C3DF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82410346290C51A0006C3DF6 /* Main.storyboard */; };
 		8241034A290C51A1006C3DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82410349290C51A1006C3DF6 /* Assets.xcassets */; };
 		8241034D290C51A1006C3DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8241034B290C51A1006C3DF6 /* LaunchScreen.storyboard */; };
+		82DBCC65292D51910067A45F /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82DBCC64292D51910067A45F /* SF-Pro-Text-Bold.otf */; };
+		82DBCC69292D54A60067A45F /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82DBCC68292D54A60067A45F /* SF-Pro-Text-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		82410349290C51A1006C3DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8241034C290C51A1006C3DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8241034E290C51A1006C3DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DBCC64292D51910067A45F /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Bold.otf"; path = "../../../../Helpers/Fonts/San-Francisco-Pro-Fonts-master/San-Francisco-Pro-Fonts-master/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		82DBCC68292D54A60067A45F /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Medium.otf"; path = "../../../../Helpers/Fonts/San-Francisco-Pro-Fonts-master/San-Francisco-Pro-Fonts-master/SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,18 @@
 				82410349290C51A1006C3DF6 /* Assets.xcassets */,
 				8241034B290C51A1006C3DF6 /* LaunchScreen.storyboard */,
 				8241034E290C51A1006C3DF6 /* Info.plist */,
+				82DBCC63292D511F0067A45F /* Fonts */,
 			);
 			path = Mywishes;
+			sourceTree = "<group>";
+		};
+		82DBCC63292D511F0067A45F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				82DBCC68292D54A60067A45F /* SF-Pro-Text-Medium.otf */,
+				82DBCC64292D51910067A45F /* SF-Pro-Text-Bold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,8 @@
 			files = (
 				8241034D290C51A1006C3DF6 /* LaunchScreen.storyboard in Resources */,
 				8241034A290C51A1006C3DF6 /* Assets.xcassets in Resources */,
+				82DBCC65292D51910067A45F /* SF-Pro-Text-Bold.otf in Resources */,
+				82DBCC69292D54A60067A45F /* SF-Pro-Text-Medium.otf in Resources */,
 				82410348290C51A0006C3DF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
